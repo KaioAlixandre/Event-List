@@ -67,7 +67,7 @@ cd seu-repositorio
 ```bash
 mvn spring-boot:run
 ```
-A aplicação estará disponível em http://localhost:8080.
+- A aplicação estará disponível em http://localhost:8080.
 
 3. Executar o Frontend
 
@@ -79,9 +79,9 @@ Abra o arquivo login.html no seu navegador.
 
 4. Usando a Aplicação
 
-Login: http://localhost:8080/login.html
+- Login: http://localhost:8080/login.html
 
-Cadastro: http://localhost:8080/cadastro.html
+- Cadastro: http://localhost:8080/cadastro.html
 
 Após fazer o login, você será redirecionado para a lista de eventos.
 
