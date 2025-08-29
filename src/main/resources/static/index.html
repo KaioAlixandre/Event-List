@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos</title>
+</head>
+<body>
+
+    <script>
+        // Verifica se o token JWT existe no localStorage
+        const token = localStorage.getItem('authToken');
+        
+        // Se o token não existir, redireciona para a página de login
+        if (!token) {
+            window.location.href = 'login.html';
+        } else {
+            // Se o token existir, carrega a página de eventos
+            // Você pode adicionar a lógica para carregar os eventos aqui
+            // Por exemplo: fetch('http://localhost:8080/events', ...)
+            console.log('Token encontrado. Carregando a página de eventos...');
+            // Exemplo de redirecionamento ou carregamento de conteúdo
+            window.location.href = 'lista-eventos.html';
+        }
+    </script>
+
+</body>
+</html>
